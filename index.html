@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coin Set Details</title>
+  <!-- Chart.JS cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+  <link rel="stylesheet" href="./assets/styles/style.css" />
+  <!-- Bootstrap5 css cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <!-- Bootstrap5 cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./assets/scripts/charts.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="headerSec">
+      <div class="container">
+        <nav>
+          <a class="logo" href="index.html">
+            <img src="./assets/images/coinsetimg/logo.svg" alt="logo"> <span>NuFi</span>
+          </a>
+          <div class="pt-0 ms-4 d-none d-lg-block">
+            <ul>
+              <li class="active"><a href="#">Product</a></li>
+              <li><a href="#">Tolls</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="d-inline-flex align-items-center">
+            <a class="signin" href="#">Login</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+  <div id="smooth-wrapper">
+    <div id="smooth-content" class="position-relative">
+      <div class="external overflow-hidden">
+        <div class="commonGrad gradient_style">
+          <div class="top_grad"></div>
+          <div class="top_right_grad"></div>
+          <div class="bottom_left_grad"></div>
+          <div class="bg-3-r"></div>
+
+        </div>
+
+        <div>
+          <section class="pt-header">
+            <div class="container">
+
+              <div class=" brudcrumb-container">
+                <div class="brudcrumb">
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Liquid Staking Derivatives Tracker</li>
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="coin-tracker-sec mt-5">
+                    <h2>Liquid Staking Derivatives Tracker</h2>
+                    <div class="d-flex align-items-center justify-content-start">
+                      <img class="pe-2 m-img" src="./assets/images/components/chartCard1/bitcoin.svg" alt="coin">
+                      <img class="pe-2 m-img" src="./assets/images/components/chartCard1/binance.svg" alt="coin">
+                      <img class="pe-2 m-img" src="./assets/images/components/chartCard1/tether.svg" alt="coin">
+                      <div class="oneplus">+1</div>
+                      <div class="invester-detail">
+                        <img src="./assets/images/components/chartCard1/investors.svg" alt="">
+                        <span class="px-1"><b>100K+</b> <span class="para-style">investors</span></span>
+                      </div>
+                      <div>
+                        <img src="./assets/images/components/chartCard1/slice.svg" alt="">
+                        <span class="px-1"><span class="para-style">Market Cap Dominance</span> <b>₹118T 
+                            (76.26%)</b></span>
+                      </div>
+                    </div>
+                    <div class="">
+                      <div class="day_time d-flex align-items-center justify-content-start mb-5">
+                        <div class="day_timegreen me-3">10.45%</div>
+                        <div class="day_time__txt1">Tue Feb 13 2024 at 12:37 PM</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="lineChartCard1 block-level3">
+                    <div class="lineChartCard1__head">
+                      <h3>Analytics</h3>
+                      <div>
+                        <div class="lineChartCard1__btns btn-group me-5" role="group"
+                          aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
+                          <label class="btn" for="btnradio1">Day</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                          <label class="btn" for="btnradio2">Week</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off"
+                            checked>
+                          <label class="btn" for="btnradio3">Month</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                          <label class="btn" for="btnradio4">Year</label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="lineAreaChart1" style="width: 100%;height: calc(400px * var(--resp));"></div>
+                  </div>
+
+                </div>
+                <div class="col-md-4">
+                  <div class="startinvest chartCard1 chartCarddetail-5 mb-4">
+                    <div class="startinvest__head">
+                      <h3>ENTER AMOUNT</h3>
+                    </div>
+                    <div class="startinvest__body">
+                      <div class="startinvest__input-wrapper mb-3">
+                        <input type="number" value="" placeholder="$27,340.00">
+                      </div>
+
+                      <button class="btn-dark-big w-100">WITHDRAW</button>
+                    </div>
+
+
+                  </div>
+                  <div class="popularset_main block-level4">
+                    <div class="popularset_coin d-flex align-items-center">
+                      <img class="me-2" src="\assets\images\components\chartCard1\fire.svg" class="fire">
+
+                      <h2>Popular Coin Sets</h2>
+                    </div>
+                    <div class="">
+                      <p class="para-style">Popularity is based on the number of users who are investing in the asset on
+                        Mudrex. A higher popularity rank indicates that more users are investing in this asset in the
+                        last few days.</p>
+                    </div>
+
+                    <div class="populardataTable mb-4">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th colspan="2">
+                              <div class="d-flex gap-2">
+                                <div class="multi-coin-stack1">
+                                  <img class="coin-img" alt="Bitcoin"
+                                    src="./assets/images/components/chartCard1/bitcoin.svg">
+                                  <img class="coin-img" alt="Binance"
+                                    src="./assets/images/components/chartCard1/binance.svg">
+                                  <img class="coin-img" alt="Thether"
+                                    src="./assets/images/components/chartCard1/tether.svg">
+                                  <span class="more">+1</span>
+                                </div>
+
+                                <div>
+                                  Liquid Staking Derivatives Tracker
+                                </div>
+                              </div>
+                            </th>
+                            <th class="text-center" style="width:90px">#1</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+
+                          <tr>
+                            <td>
+                              <div class="multi-coin-stack1  multi-coin-stack1--med">
+                                <img class="coin-img" alt="Bitcoin"
+                                  src="./assets/images/components/chartCard1/solana.svg">
+                                <img class="coin-img" alt="Binance"
+                                  src="./assets/images/components/chartCard1/mana.svg">
+                                <img class="coin-img" alt="Thether"
+                                  src="./assets/images/components/chartCard1/synthetix.svg">
+                                <img class="coin-img" alt="Thether"
+                                  src="./assets/images/components/chartCard1/aptos.svg">
+                              </div>
+                            </td>
+                            <td>AI Tracker</td>
+                            <td>
+                              <div class="d-flex gap-0 align-items-center">
+                                <span>#10</span>
+                                <img class="coin-img" src="./assets/images/landing/arrow-up.png">
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="multi-coin-stack1  multi-coin-stack1--med">
+                                <img class="coin-img" alt="Bitcoin"
+                                  src="./assets/images/components/chartCard1/solana.svg">
+                                <img class="coin-img" alt="Binance"
+                                  src="./assets/images/components/chartCard1/mana.svg">
+                                <img class="coin-img" alt="Thether"
+                                  src="./assets/images/components/chartCard1/synthetix.svg">
+                                <img class="coin-img" alt="Thether"
+                                  src="./assets/images/components/chartCard1/aptos.svg">
+                              </div>
+                            </td>
+                            <td>AI Tracker</td>
+                            <td>
+                              <div class="d-flex gap-0 align-items-center">
+                                <span>#10</span>
+                                <img class="coin-img" src="./assets/images/landing/arrow-up.png">
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="multi-coin-stack1  multi-coin-stack1--med">
+                                <img class="coin-img" alt="Bitcoin"
+                                  src="./assets/images/components/chartCard1/solana.svg">
+                                <img class="coin-img" alt="Binance"
+                                  src="./assets/images/components/chartCard1/mana.svg">
+                                <img class="coin-img" alt="Thether"
+                                  src="./assets/images/components/chartCard1/synthetix.svg">
+                                <img class="coin-img" alt="Thether"
+                                  src="./assets/images/components/chartCard1/aptos.svg">
+                              </div>
+                            </td>
+                            <td>AI Tracker</td>
+                            <td>
+                              <div class="d-flex gap-0 align-items-center">
+                                <span>#10</span>
+                                <img class="coin-img" src="./assets/images/landing/arrow-up.png">
+                              </div>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <div class="multi-coin-stack1  multi-coin-stack1--med">
+                                <img class="coin-img" alt="Bitcoin"
+                                  src="./assets/images/components/chartCard1/solana.svg">
+                                <img class="coin-img" alt="Binance"
+                                  src="./assets/images/components/chartCard1/mana.svg">
+                                <img class="coin-img" alt="Thether"
+                                  src="./assets/images/components/chartCard1/synthetix.svg">
+                                <img class="coin-img" alt="Thether"
+                                  src="./assets/images/components/chartCard1/aptos.svg">
+                              </div>
+                            </td>
+                            <td>AI Tracker</td>
+                            <td>
+                              <div class="d-flex gap-0 align-items-center">
+                                <span>#10</span>
+                              </div>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="bigchartwrapper">
+                <div class="d-flex justify-content-center mb-5">
+                  <h3>Constituents</h3>
+                </div>
+                <div class="pie-chart">
+                  <div class="pie-chart-inner">
+                    <div id="bigPieChart1" style="width: 100%;height: 400px;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="securedSec">
+
+            <div class="container">
+              <div class="nuficoinset-bg">
+                <div class="row">
+                  <div class="col-lg-6 col-xl-6">
+                    <div class="subtitle mb-4">
+                      <div class="subtitle__inner">
+                        <h3>NuFi coinset</h3>
+                        <h3>NuFi coinset</h3>
+                      </div>
+                    </div>
+                    <div>
+                      <h2><span class="text-grad">NuFi</span> CoinSets</h2>
+                      <h4>crypto basket centred around specific theme for coin sets.</h4>
+                      <p class=" mt-4">Elementum blandit dignissim cursus pharetra est arcu volutpat arcu. Nibh
+                        ut sapien quis id consectetur vestibulum neque placerat. Adipiscing duis nunc .</p>
+                      <div>
+                        <a class="button btn btn-dark" href="#">Explore Coinset</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-1 col-xl-1"></div>
+                  <div class="col-lg-5 col-xl-5 position-relative ">
+                    <div class="imageabsulate">
+                      <img class="coinsetsImg bottom_img" src="./assets/images/landing/coinset/nuficointseright.png"
+                        alt="">
+                      <img class="framecoinset replaceWithSVG check-viewport"
+                        src="./assets/images/landing/anim/coinsets/coinsets.svg" alt="">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </div>
+    <script>
+      window.onload = function () {
+        var dates = ['2022-05-01', '2022-06-18', '2022-07-030', '2022-08-01', '2022-09-01', '2022-010-01'];
+        var values = [30330, 10290, 40034, 30001, 23932, 50000,];
+        lineChart(
+          'lineAreaChart1',
+          dates,
+          values
+        );
+        // Pie chart here
+        pieChart2('bigPieChart1', 'Title', [
+          { value: 500, name: 'Ethereum', itemStyle: { color: '#141414' } },
+          { value: 400, name: 'BNB chain', itemStyle: { color: '#FFE69E' } },
+          { value: 200, name: 'Tethers', itemStyle: { color: '#A1D6C7' } },
+          { value: 400, name: 'Bitcoin', itemStyle: { color: '#FFCB8D' } },
+          { value: 1100, name: 'Solana', itemStyle: { color: '#A7FFF9' } },
+        ]);
+
+      }
+    </script>
+</body>
+
+</html>

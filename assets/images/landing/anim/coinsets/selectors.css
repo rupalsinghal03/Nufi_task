@@ -1,0 +1,18 @@
+.coinset1SVG.viewport-active #coinset1 > g{
+    animation: coinset1AnimUpdown 3.5s ease-in-out forwards infinite;
+}
+.coinset1SVG.viewport-active #coinset1 > #coin1{
+    animation-delay: -1s;
+}
+.coinset1SVG.viewport-active #coinset1 > #coin2{
+    animation-delay: -0.85s;
+}
+.coinset1SVG.viewport-active #coinset1 > #coin3{
+    animation-delay: -0.75s;
+}
+.coinset1SVG.viewport-active #coinset1 > #coin4{
+    animation-delay: -0.65s;
+}
+.coinset1SVG.viewport-active #coinset1 > #coin5{
+    animation-delay: -0.5s;
+}

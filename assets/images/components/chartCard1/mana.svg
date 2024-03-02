@@ -1,0 +1,26 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="25" fill="url(#paint0_linear_708_1446)"/>
+<path d="M17.7119 16.25V35H33.3369L17.7119 16.25Z" fill="url(#paint1_linear_708_1446)"/>
+<path d="M2.08789 35H17.7129V16.25L2.08789 35Z" fill="white"/>
+<path d="M5 40C6.425 41.8875 8.1125 43.575 10 45H40C41.8875 43.575 43.575 41.8875 45 40H5Z" fill="#FC9965"/>
+<path d="M10 45C14.175 48.1375 19.375 50 25 50C30.625 50 35.825 48.1375 40 45H10Z" fill="#FF2D55"/>
+<path d="M33.5381 26.25V40H45.0006L33.5381 26.25Z" fill="url(#paint2_linear_708_1446)"/>
+<path d="M33.5379 35H2.08789C2.86289 36.7875 3.85039 38.4625 5.00039 40H33.5504V35H33.5379Z" fill="#FFBC5B"/>
+<path d="M22.0879 40H33.5379V26.25L22.0879 40Z" fill="white"/>
+<ellipse cx="33.5371" cy="16.25" rx="6.25" ry="6.25" fill="#FFC95B"/>
+<circle cx="17.7129" cy="9.375" r="3.125" fill="#FFC95B"/>
+<defs>
+<linearGradient id="paint0_linear_708_1446" x1="25" y1="-10.355" x2="-10.355" y2="25" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF2D55"/>
+<stop offset="1" stop-color="#FFBC5B"/>
+</linearGradient>
+<linearGradient id="paint1_linear_708_1446" x1="17.7066" y1="16.25" x2="17.7066" y2="35" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A524B3"/>
+<stop offset="1" stop-color="#FF2D55"/>
+</linearGradient>
+<linearGradient id="paint2_linear_708_1446" x1="33.5342" y1="26.25" x2="33.5342" y2="40" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A524B3"/>
+<stop offset="1" stop-color="#FF2D55"/>
+</linearGradient>
+</defs>
+</svg>
